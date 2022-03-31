@@ -20,6 +20,7 @@ Ans: Open Source Library for building user interfaces
 ----------------------------------Shortcuts---------------------------------------------------
 -->rfce : to render snippet of function
 -->rce : to create class component
+-->rconst : to create a constructor
 
 -------------------------------Folder structure-------------------------------------------------
 -->in package.json React contains about its version, scripts and dependencies
@@ -101,7 +102,7 @@ in file $App.js
 -->It also maintains private information also known as 'state'.
 -->in this case we need to import react and one of its class {component}
 
-------------------------------------$ Functional Component v/s Class component $----------------------------------
+---------------------------$ Functional Component v/s Class component $----------------------------------
 
     #Fucntional Component
         -->Simple fucntions
@@ -118,7 +119,7 @@ in file $App.js
         -->Statefull/smart/container
 
 
-----------------------------------------------JSX start-----------------------------------------------------
+----------------------------------------JSX start-----------------------------------------------------
 -->Javascript XML(JSX)-extension o fjavascriptt language syntax
 -->Write XML like codes for elements and componenets
 -->JSX is not a necessatiy to write React components
@@ -130,7 +131,7 @@ in file $App.js
     -->class -> className
     -->for -> htmlFor
 
-----------------------------------------------Props (short form of properties)-------------------------------
+------------------------------------------Props (short form of properties)-------------------------------
 -->Makes the component dynamic
 -->When using the same componenet multiple times in App.js , the same component can have a different values passed on as props
 -->To store the prop we specify the `attributes`
@@ -209,3 +210,16 @@ $ --Destructuring--(used in Greetings)
 
 -->Event handler is a fucntion and not a fucntion call.
         
+-----------------------------------------------------Methods as props----------------------------------------------------
+file:(ParentComponent),(ChildComponent)
+
+----------------------------------------------------Conditional rendering------------------------------------------------
+-->same as used in javascript
+    -->if/else
+    -->Element variables
+    -->Ternary Conditional operator
+    -->Short Circuit Operator
+
+file: UserGreeting.js
+
+--> if else condition is added inside render method and outside return method

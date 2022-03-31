@@ -39,6 +39,10 @@ import Greetings from './components/Greetings';
 import FunctionClick from './components/FunctionClick';
 // class based component
 import ClassClick from './components/ClassClick';
+// passing method as props
+import ParentComponent from './components/ParentComponent';
+// conditional rendering
+import UserGreeting from './components/UserGreeting';
 
 class App extends Component{
   
@@ -89,9 +93,13 @@ class App extends Component{
         {/* <Greetings name="Tony" heroName="Iron Man"/> */}
         {/* -----------------------------------------------Event Handling---------------------------------------------------- */}
         {/* <FunctionClick/> */}
-        </div>
         {/* event handling using claass based component */}
-        <ClassClick/>
+        {/* <ClassClick/> */}
+        {/* paasing methods as props */}
+        {/* <ParentComponent/> */}
+        </div>
+        {/* -----------------cocnditional rendering------------ */}
+        <UserGreeting/>
         </div>
       )
     }
